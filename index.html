@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <title> R-almayyas</title>
+      <style >  
+      body {
+        padding-top: 60px;
+      }
+
+.typing::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #4FC3F7;
+    animation: cursorBlink 0.8s steps(3) infinite;
+}
+
+
+
+.typing {
+    position: relative;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #3333);
+}
+
+.typing h2 {
+    position: relative;
+    color: #4FC3F7;
+    letter-spacing: 5px;
+    font-size: 4rem;
+    overflow: hidden;
+    margin-bottom: 0;
+    animation: type 5s steps(11) infinite;
+}
+
+@keyframes type {
+
+    0%,
+    100% {
+        width: 0px;
+    }
+
+    30%,
+    60% {
+        width: 700.09px;
+    }
+}
+
+@media(max-width: 700px) {
+    .typing h2 {
+        font-size: 3rem;
+        animation: type 5s steps(10) infinite;
+    }
+
+}
+
+
+.container-skills {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 93%; background-color: #4FC3F7;}
+.css {width: 90%; background-color: #4FC3F7;}
+.bootstrap {width: 70%; background-color: #4FC3F7;}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  margin: 2%;
+  border: 1px solid #4FC3F7;
+  float: left;
+  width: 80%;
+  background-color: black;
+  color: #4FC3F7;
+}
+/*footer*/
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+   </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  
+  </head>
+  <body style="background-color: black;">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+             <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#skills">skills</a></li>
+            <li><a href="#works">works</a></li>
+            <li><a href="#contact">Contact</a></li>
+         
+          </ul>
+                   
+        </div>
+      </div>
+    </div>
+    <div class="jumbotron" style="background-color: black; color: white;" id="home">
+      <div class="container">
+        <div class="col-lg-4">
+         <img src="./img/me.jpg" height="400" width="350">
+        </div>
+        <h3>Hello Everyone 👋</h3>
+        <h2>I'm Rashed Almayyas <br>I am a
+          <span class="typing"  align="right">
+            <h2 class="text-uppercase"> programmer  </h2>
+         </h2> </span>
+       <hr>
+
+<div class="container" style="background-color: black; color: white;">
+  <div class="row">
+    <div class="col-lg-2">
+  <p>&#128197; 02.04.2000</p>        </div>
+<div class="container" style="background-color: black; color: white;">
+  <div class="row">
+    <div class="col-lg-2">
+      <p >	&#128222; 0778981182</p>
+    </div>  
+    <div class="col-lg-2">
+      <p><i class='fas fa-map-marker-alt'></i> Jordan - Zarqa</p>        </div>
+    <div class="container" style="background-color: black; color: white;">
+      <div class="row">
+        <div class="col-lg-4">
+          <p >&#64; mayyasalghwari@gmail,com</i>
+          </p>
+        </div>  
+    </div>
+      </div>
+    </div>
+
+        <div class="col-lg-14">
+<p><br>
+  I'm a Creative Developer for interactive projects  Creative websites. 
+  I Spend most of time coding outstanding projects or studying new technologies. 
+  to improve my development stack. 
+  I develop compelling designs that spring to life using transition and animations that suit my clients,
+   using the most sophisticated technologies available today for fully interactive and responsive websites .
+</p>        </div>
+
+
+    <div class="col-lg-14">
+<h2 style="text-decoration: underline; text-decoration-color: #4FC3F7;" >What i do
+</h2>        </div>
+
+    <div class="col-lg-4">
+<p>Business & Ecommerce</p>        </div>
+
+    <div class="col-lg-4">
+<p>Blogs & news</p>        </div>
+
+    <div class="col-lg-4">
+<p>Forum & Event</p>        </div>  
+
+    </div>
+</div>
+
+
+    <div class="col-lg-14">
+<h2 style="text-decoration: underline; text-decoration-color: #4FC3F7;" ><br><br><br> My Skills
+</h2>    <hr>    </div>
+
+    <div class="col-lg-10">
+      <p>HTML</p>
+      <div class="container-skills">
+        <div class="skills html">93%</div>
+      </div>     </div>
+
+    <div class="col-lg-10">
+<p>CSS</p> 
+<div class="container-skills">
+  <div class="skills css">90%</div>
+</div>        </div>
+
+    <div class="col-lg-10">
+<p>Bootstrap</p> 
+<div class="container-skills">
+  <div class="skills bootstrap">70%</div>
+</div>        </div>  
+
+    </div>
+</div>
+
+<div class="container" id="works">
+ 
+    
+ 
+ <div class="col-lg-2">
+  <h2 style="text-decoration: underline; text-decoration-color: #4FC3F7;"> <br> <br>My Works</h2>
+ </div>
+ <div class="col-lg-9" ><br> <br><br> 
+  <form class="example" action="/action_page.php">
+    <input type="text" placeholder="Search.." name="search">
+  </form> </div>
+
+ 
+ <div class="col-lg-12">
+  <hr>
+      <h2>Mercedes Benz</h2>
+      <p>A site that displays the company's latest cars and the most important features of their vehicles
+        Using html & css programming languages</p>
+      <p><a class="btn btn-default" href="#">Visit &raquo;</a> 
+        <a class="btn btn-default" href="#">code &raquo;</a>
+      </p> </div>
+      <div class="col-lg-12">
+        <h2>bootstrap theam</h2>
+        <p>Website layout using bootstrap and html without including any class in html codes/p>
+        <p><a class="btn btn-default" href="#">Visit &raquo;</a> 
+          <a class="btn btn-default" href="#">code &raquo;</a>
+        </p> </div>
+        <div class="col-lg-12">
+          <h2>profitly</h2>
+          <p>This site you are on is a resume that was created using the html css bootsrap programming languages</p>
+          <p><a class="btn btn-default" href="#">Visit &raquo;</a> 
+            <a class="btn btn-default" href="#">code &raquo;</a>
+          </p> </div>      
+</div>
+    </div>
+    
+        <footer >
+   <!-- Site footer -->
+   <footer class="site-footer" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-8">
+          <h6>About</h6>
+          <p class="text-justify">I am always working on developing myself, I am a successful person,
+             so you will find that my page contains the most beautiful and most efficient sites out there.</p>
+        </div>
+
+
+        <div class="col-xs-6 col-md-3">
+          <h6>Quick Links</h6>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">skills</a></li>
+            <li><a href="#works">works</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by R-Almayyas.
+          </p>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <ul class="social-icons">
+            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+          </ul>
+        </div>
+      </div>
+    </div>
+</footer>   
+        </footer>
+        
+        </body>
+
+</html>
